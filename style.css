@@ -1,0 +1,251 @@
+
+.navbar{
+    background-color: green;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.navbar-logo{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  
+}
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+.nav-link{
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    display:block;
+
+}
+.nav-link:hover{
+    background-color:orange;
+}
+
+
+
+
+
+
+
+.home{
+    background-image: url("image/pic\ 1.png");
+    height: 600px;
+    background-size: cover;
+}
+.about-image{
+    width: 400px;
+    height: 500px;
+}
+.about-image img{
+    width: 400px;
+    height: 500px;
+}
+.about h3{
+    color: green;
+    font-size: 20px;
+}
+.about-container{
+    display:flex;
+    justify-content: center;
+}
+.about-text{
+    width: 300px;
+    margin: 30px;
+}
+.menu{
+    background-color: #1a1f22;
+    
+}
+.menu h3{
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.cake{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 0px 2px rgb(214, 203, 203);
+    background-image: url("image/cake6.jpg"); 
+    background-size: cover;
+    margin: 20px;
+}
+.cake h3{
+    color: red;
+    margin: 10px;
+}
+.cake2 h3{
+    margin: 10px;
+    color:rgb(209, 10, 76);
+}
+.cake1 h3{
+    margin: 10px;
+    color:rgb(224, 78, 9);
+}
+
+.cake p{
+    padding-top: 140px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.cake1{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 0px 2px rgb(214, 203, 203);
+    background-image: url("image/cake3.jpg"); 
+    background-size: cover;
+    margin: 20px;
+}
+.cake1 p{
+    padding-top: 140px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.cake2{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 0px 2px rgb(214, 203, 203);
+    background-image: url("image/cake4.jpg"); 
+    background-size: cover;
+    margin: 20px;
+}
+.cake2 p{
+    padding-top: 140px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.cake-container{
+    display: flex;
+    justify-content: center;
+}
+
+.design{
+    height: 100px;
+    background-image: url('image/stake1.jpg');
+    background-size: cover;
+
+}
+.catering{
+    background-color:#253342;
+}
+.catering-container{
+    display: flex;
+}
+.cat-image{
+    width: 800px;
+    height: 500px;
+}
+.cat-image img{
+    width:800px;
+    height: 500px;
+}
+.catering-text{
+    width: 400px;
+    padding: 80px;
+    justify-content: space-between;
+    font-size: 18px;
+    color: white;
+
+}
+.gallery1{
+    width:100%;
+    justify-content: center;
+}
+.gallery1 img{
+    width: 100%;
+    justify-content: center;
+}
+.gallery2{
+    width:450px;
+    height: 450px;
+}
+.gallery2 img{
+    width: 450px;
+    height: 450px;
+}
+.gallery3{
+    width:830px;
+    height: 450px;
+    margin-left: 10px;
+}
+.gallery3 img{
+    width: 830px;
+    height: 450px;
+    margin-left: 10px;
+}
+.gallery2-container{
+    display:flex;
+    margin: 20px;
+
+}
+.footer{
+    background-color: lightcyan;
+}
+.footer-container{
+     display: flex;
+     justify-content: space-between;
+     justify-content: center;
+}
+.place{
+    width: 30%;
+    
+}
+.place ul{
+    list-style-type: none;
+}
+.contact{
+    width: 30%;
+}
+.support{
+    width: 30%;
+}
+.contact ul{
+    list-style-type: none;
+
+
+}
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{
+    color: orangered;
+}
+.support ul{
+    list-style-type: none;
+
+
+}
+.support a{
+    text-decoration: none;
+}
+.support a:hover{
+    color: orangered;
+}
+.copy{
+    text-align: center;
+}
