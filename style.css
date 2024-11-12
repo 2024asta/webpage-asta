@@ -39,12 +39,6 @@
     background-color:orange;
 }
 
-
-
-
-
-
-
 .home{
     background-image: url("image/pic\ 1.png");
     height: 600px;
@@ -159,6 +153,7 @@
 .cat-image{
     width: 800px;
     height: 500px;
+    
 }
 .cat-image img{
     width:800px;
